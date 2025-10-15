@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hallandstaxklubb</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="topbar container">
+      <div class="brand">
+        <div class="logo">
+            <img src="cropped-HTK-logga-500-1.png" alt="Hallandstaxklubb">
+        </div>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="navbar">
+        <ul class="navlist" id="navList">
+          <li class="dropdown">
+            <div class="dropdown-header">
+              <a href="index.html"><strong>Hem</strong></a>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <div class="dropdown-header">
+              <a href="#"><strong>Aktiviteter</strong></a>
+            </div>
+            <div class="dropdown-content">
+              <a href="#">Utställning</a>
+              <a href="#">Drevprov</a>
+              <a href="#">Viltspårprov</a>
+              <a href="#">Sponsorer</a>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            <div class="dropdown-header">
+              <a href="#"><strong>Avel</strong></a>
+            </div>
+            
+            <div class="dropdown-content">
+              <a href="#">Avel</a>
+              <a href="#">Avelshanar</a>
+            </div>
+          </li>
+
+          <li class="dropdown">
+            
+              <a href="tax.html"><strong>Köpa tax</strong></a>
+            
+            <div class="dropdown-content">
+              <a href="tax.html"><strong>Köpa tax</strong></a>
+              <a href="#">Uppfödare</a>
+              <a href="#">Valpar</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <div class="dropdown-header">
+              <a href="#"><strong>Klubbinfo</strong></a>
+            </div>
+            <div class="dropdown-content">
+              <a href="#">Klubbinfo</a>
+              <a href="#">Medlemskap</a>
+              <a href="#">Styrelse</a>
+              <a href="#">Klubbens kommitéer</a>
+              <a href="#">Vandringspriser</a>
+              <a href="#">Årsmöte</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero1">
+      <div>
+        <h1>Välkommen till Hallandstaxklubb</h1>
+        <p>En aktiv klubb för taxägare i Halland med fokus på gemenskap, jakt, utställning och utbildning.</p>
+        <div class="cta">
+          <a href="#aktiviteter" class="btn">Se kommande aktiviteter</a>
+          <a href="#medlemskap" class="btn secondary">Bli medlem</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Senaste nytt</h2>
+        <p>Välkommen till årets utställning i Varberg 15 augusti. Läs mer under <a href="#utstallning">Utställning</a>.</p>
+      </div>
+    </section>
+
+    <section id="aktiviteter">
+      <h2>Kommande aktiviteter</h2>
+      <div class="grid">
+        <div class="event"><time>15 aug</time> <div>Utställning i Varberg</div><div class="muted">Domare: Anna Svensson</div></div>
+        <div class="event"><time>10 sep</time> <div>Viltspårprov Laholm</div><div class="muted">Anmäl senast 1 sep</div></div>
+        <div class="event"><time>5 okt</time> <div>Drevprov Hylte</div><div class="muted">Start kl 07:00</div></div>
+      </div>
+    </section>
+
+    <section id="kontakt">
+      <h2>Kontakta oss</h2>
+      <form>
+        <input type="text" placeholder="Namn" required>
+        <input type="email" placeholder="E-post" required>
+        <textarea placeholder="Meddelande" rows="4"></textarea>
+        <button type="submit">Skicka</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © 2025 Hallandstaxklubb – En del av Svenska Taxklubben
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
